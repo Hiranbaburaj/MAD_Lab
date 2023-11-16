@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6F1EE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:background="#ED7D31"
+        android:paddingVertical="15sp"
+        android:text="State Capital"
+        android:textAlignment="center"
+        android:textColor="#F6F1EE"
+        android:textSize="35dp"
+        android:fontFamily="@font/galvanizerbold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/ap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Andhra Pradesh"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+
+        <RadioButton
+            android:id="@+id/as"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assam"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+
+        <RadioButton
+            android:id="@+id/br"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bihar"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+
+        <RadioButton
+            android:id="@+id/gj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gujarat"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+
+        <RadioButton
+            android:id="@+id/ka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Karnataka"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+
+        <RadioButton
+            android:id="@+id/kl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kerala"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+
+        <RadioButton
+            android:id="@+id/mh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maharashtra"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+
+        <RadioButton
+            android:id="@+id/pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Punjab"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+        <RadioButton
+            android:id="@+id/tn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tamil Nadu"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+
+        <RadioButton
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uttar Pradesh"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+
+        <RadioButton
+            android:id="@+id/wb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="West Bengal"
+            android:fontFamily="@font/galvanizerregular"
+            android:textSize="20sp"
+            android:onClick="ButtonSelect" />
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/galvanizerbold"
+        android:paddingHorizontal="10dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:paddingBottom="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</LinearLayout>
