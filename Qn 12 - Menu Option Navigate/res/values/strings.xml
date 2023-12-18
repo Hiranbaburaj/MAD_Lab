@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ex 12 - Menu Option Navigate</string>
+    <string-array name="menu_items">
+        <item>Home</item>
+        <item>About</item>
+        <!-- Add more items if needed -->
+    </string-array>
+</resources>
